@@ -44,7 +44,7 @@ In the file `tests\test_contract.cairo`:
    1. Starknet Contract Address - `starknet::ContractAddress;`
    2. Starknet Foundry - `snforge_std::{declare, ContractClassTrait, start_prank, stop_prank, CheatTarget, start_warp};`
    3. Your Cairo contract Dispatcher and Dispatcher Trait.
-2. Create a new test and name it `first_cairo_contract_tests`, in the test itself:
+2. Inside the test `first_cairo_contract_tests`:
    1. Declare the contract class.
    2. Prepare the constructor call data using `Serde`.
    3. Deploy the contract and create a Dispatcher.
